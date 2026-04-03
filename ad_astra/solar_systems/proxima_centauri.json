@@ -1,0 +1,26 @@
+{
+  "id": "ad_astra:proxima_centauri",
+  "sun_texture": "ad_astra:textures/environment/blue_sun.png",
+  "sun_size": 18,
+  "sun_dimension": "",
+  "orbiting_objects": [
+    {
+	  "dimension": "",
+	  "texture": "ad_astra:textures/environment/vicinus.png",
+      "size": 14,
+      "distance": 13,
+	  "time": 72.8,
+	  "circle_color": "#008080",
+	  "extra_objects": [
+	    {
+		  "dimension": "ad_astra:glacio",
+		  "texture": "ad_astra:textures/environment/glacio.png",
+		  "size": 9,
+		  "distance": 4,
+		  "time": 5.46,
+		  "circle_color": "#008080"
+	    }
+	  ]
+    }
+  ]
+}
