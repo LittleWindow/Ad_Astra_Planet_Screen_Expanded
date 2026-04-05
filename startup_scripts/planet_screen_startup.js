@@ -67,19 +67,21 @@ StartupEvents.postInit(event => {
         let selected_planet = $selectedPlanet.get($screen)
       
         //SUN
-        graphics.blit(solar_system.sun_texture, (width / 2) - (solar_system.sun_size / 2), (height / 2) - (solar_system.sun_size / 2), 0, 0, solar_system.sun_size, solar_system.sun_size, solar_system.sun_size, solar_system.sun_size)
+        graphics.pose().pushPose()
+
+        graphics.pose().translate(width / 2, height / 2, 0)
+        
+        graphics.blit(solar_system.sun_texture, solar_system.sun_size / -2, solar_system.sun_size / -2, 0, 0, solar_system.sun_size, solar_system.sun_size, solar_system.sun_size, solar_system.sun_size)
       
         // SUN SELECTED OVERLAY   //If, for some reason, you want to go to the sun.
         if(selected_planet != null && solar_system.sun_dimension == selected_planet.dimension().location().toString()){
-          
-          graphics.pose().pushPose()
 
           graphics.pose().scale(1.25, 1.25, 1)
 
-          graphics.blit("ad_astra:textures/environment/planet_overlay.png", (width / 2) - (solar_system.sun_size / 2), (height / 2) - (solar_system.sun_size / 2), 0, 0, solar_system.sun_size, solar_system.sun_size, solar_system.sun_size, solar_system.sun_size)
-
-          graphics.pose().popPose()
+          graphics.blit("ad_astra:textures/environment/planet_overlay.png", solar_system.sun_size / -2, solar_system.sun_size / -2, 0, 0, solar_system.sun_size, solar_system.sun_size, solar_system.sun_size, solar_system.sun_size)
         }
+
+        graphics.pose().popPose()
       
         ////OBJECTS
         solar_system_time = $Util.getMillis() / 1000
