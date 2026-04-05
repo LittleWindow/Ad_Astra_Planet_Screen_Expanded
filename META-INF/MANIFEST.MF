@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Version: 1.0
+Specification-Vendor: Little_Window
+Implementation-Vendor: Little_Window
+Implementation-Timestamp: 2026-04-04T23:09:40-0300
+Implementation-Title: Ad Astra: Planet Screen Expanded
+Specification-Title: ad_astra_planet_screen_expanded
+Specification-Version: 1
+
