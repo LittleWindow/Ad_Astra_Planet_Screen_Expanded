@@ -3,11 +3,11 @@ Expands Ad Astra's planet screen functionalities, using KubeJS scripts! (Yes you
 
 **FEATURES:**
 
-- Data-driven solar system rendering using .json files!
+- Data-driven dynamic solar system rendering using .json files!
 
-- Support for moons and other orbiting objects around planets.
+- Support for moons, and other orbiting objects, around planets.
 
-- "Selected overlay" for when choosing where to land (also making it easier to know what planet you selected).
+- "Selected overlay" for when choosing where to land (making it easier to know what planet you selected).
 
 - Independent orbiting times, sizes and distances.
 
