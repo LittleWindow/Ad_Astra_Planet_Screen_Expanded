@@ -15,6 +15,7 @@ Expands Ad Astra's planet screen functionalities, using KubeJS scripts! (Yes you
 
 This comes with already configured .json files for Ad Astras's two solar systems.
 
+**NOTICE:**
 
 - This addon includes parts of code derived from the Ad Astra mod for Minecraft 1.20.1.
 
